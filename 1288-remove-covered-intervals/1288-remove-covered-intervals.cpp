@@ -15,29 +15,14 @@ public:
 
         sort(vii.begin(), vii.end(), cmp);
 
-        // for (auto it : vii) {
-        //     cout << it.first << " " << it.second << endl;
-        // }
-
-        vector<bool> vis(n, 0);
-        int cnt = 0;
-
-        for (int i = 0; i < n; i++) {
-
-            for (int j = i + 1; j < n; j++) {
-                if (!vis[j]) {
-                    int c = vii[i].first;
-                    int d = vii[i].second;
-                    int a = vii[j].first;
-                    int b = vii[j].second;
-                    if (c <= a && b <= d) {
-                        cnt++;
-                        vis[j] = 1;
-                    }
-                }
+        int cnt = 0, mxEnd = 0;
+        for(auto it : vii){
+            if(it.second > mxEnd){
+                mxEnd = it.second;
+                cnt++;
             }
         }
 
-        return n - cnt;
+        return cnt;
     }
 };
