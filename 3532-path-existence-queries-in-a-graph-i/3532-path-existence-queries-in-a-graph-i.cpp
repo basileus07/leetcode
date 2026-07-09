@@ -18,10 +18,7 @@ public:
             int u = queries[i][0];
             int v = queries[i][1];
 
-            if (comp[u] == comp[v])
-                ans.push_back(1);
-            else
-                ans.push_back(0);
+            ans.push_back(comp[u] == comp[v]);
         }
 
         return ans;
