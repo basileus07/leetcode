@@ -1,46 +1,42 @@
 class Solution {
 public:
-    void dfs(int node, vector<vector<int>>& g, vector<int>& vis,
-             vector<int>& comp) {
+    int ecnt;
+    int ncnt;
+    void dfs(int node, vector<vector<int>>& adj, vector<int>& vis) {
         vis[node] = 1;
-        comp.push_back(node);
+        ncnt++;
 
-        for (auto nxt : g[node]) {
-            if (!vis[nxt])
-                dfs(nxt, g, vis, comp);
+        for (auto v : adj[node]) {
+            ecnt++;
+            if (!vis[v]) {
+                dfs(v, adj, vis);
+            }
         }
     }
-
     int countCompleteComponents(int n, vector<vector<int>>& edges) {
-        vector<vector<int>> g(n);
+        vector<vector<int>> adj(n);
 
-        for (auto &e : edges) {
-            g[e[0]].push_back(e[1]);
-            g[e[1]].push_back(e[0]);
+        for (auto x : edges) {
+            int u = x[0];
+            int v = x[1];
+
+            adj[u].push_back(v);
+            adj[v].push_back(u);
         }
 
         vector<int> vis(n, 0);
         int ans = 0;
-
         for (int i = 0; i < n; i++) {
-            if (vis[i]) continue;
-
-            vector<int> comp;
-            dfs(i, g, vis, comp);
-
-            int vertices = comp.size();
-            int degreeSum = 0;
-
-            for (int node : comp)
-                degreeSum += g[node].size();
-
-            int actualEdges = degreeSum / 2;
-            int expectedEdges = vertices * (vertices - 1) / 2;
-
-            if (actualEdges == expectedEdges)
-                ans++;
+            if (!vis[i]) {
+                ecnt = 0;
+                ncnt = 0;
+                dfs(i, adj, vis);
+                if (ecnt == (ncnt * (ncnt - 1))) {
+                    ans++;
+                }
+                // cout << "e:n " << ecnt << " " << ncnt << endl;
+            }
         }
-
         return ans;
     }
 };
