@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1288-remove-covered-intervals](https://github.com/basileus07/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/basileus07/leetcode/tree/master/1331-rank-transform-of-an-array) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/basileus07/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/basileus07/leetcode/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Sorting
 |  |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/basileus07/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/basileus07/leetcode/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/basileus07/leetcode/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Prefix Sum
@@ -63,4 +65,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1291-sequential-digits](https://github.com/basileus07/leetcode/tree/master/1291-sequential-digits) |
+## Number Theory
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/basileus07/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
