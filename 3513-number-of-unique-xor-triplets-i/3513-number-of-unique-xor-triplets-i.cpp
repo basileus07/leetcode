@@ -13,7 +13,7 @@ public:
 
         cout << "msb: " << msb << endl;
 
-        int ans = pow(2, msb);
-        return ans;
+        return 1 << msb;
+
     }
 };
