@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/basileus07/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [1260-shift-2d-grid](https://github.com/basileus07/leetcode/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/basileus07/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/basileus07/leetcode/tree/master/1331-rank-transform-of-an-array) |
@@ -17,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/basileus07/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [1288-remove-covered-intervals](https://github.com/basileus07/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/basileus07/leetcode/tree/master/1331-rank-transform-of-an-array) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/basileus07/leetcode/tree/master/3867-sum-of-gcd-of-formed-pairs) |
@@ -124,4 +126,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/basileus07/leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/basileus07/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/basileus07/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Quickselect
+|  |
+| ------- |
+| [0215-kth-largest-element-in-an-array](https://github.com/basileus07/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 <!---LeetCode Topics End-->
