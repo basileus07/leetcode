@@ -1,22 +1,20 @@
 class Solution {
 public:
-    // optimal straegy game (min-max game)
-
     int rec(int i, int j, vector<int>& nums) {
+        // base
+        if (i == j)
+            return nums[j];
 
-        if (i > j)
-            return 0;
-        if (i == j) {
-            return nums[i];
-        }
+        int ans = INT_MIN;
+        ans = max(ans, nums[i] - rec(i + 1, j, nums));
+        ans = max(ans, nums[j] - rec(i, j - 1, nums));
 
-        return max(nums[i] - rec(i + 1, j, nums),
-                   nums[j] - rec(i, j - 1, nums));
+        return ans;
     }
 
     bool predictTheWinner(vector<int>& nums) {
-        int totalScore = accumulate(nums.begin(), nums.end(), 0);
-
-        return rec(0, nums.size() - 1, nums) >= 0;
+        int n = nums.size();
+        int scoreDiff = rec(0, n - 1, nums);
+        return scoreDiff >= 0;
     }
 };
