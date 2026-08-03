@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1260-shift-2d-grid](https://github.com/basileus07/leetcode/tree/master/1260-shift-2d-grid) |
 | [1288-remove-covered-intervals](https://github.com/basileus07/leetcode/tree/master/1288-remove-covered-intervals) |
 | [1331-rank-transform-of-an-array](https://github.com/basileus07/leetcode/tree/master/1331-rank-transform-of-an-array) |
+| [1406-stone-game-iii](https://github.com/basileus07/leetcode/tree/master/1406-stone-game-iii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/basileus07/leetcode/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/basileus07/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/basileus07/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/basileus07/leetcode/tree/master/0072-edit-distance) |
 | [0486-predict-the-winner](https://github.com/basileus07/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/basileus07/leetcode/tree/master/0877-stone-game) |
+| [1406-stone-game-iii](https://github.com/basileus07/leetcode/tree/master/1406-stone-game-iii) |
 ## Math
 |  |
 | ------- |
@@ -48,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0486-predict-the-winner](https://github.com/basileus07/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/basileus07/leetcode/tree/master/0877-stone-game) |
 | [0973-k-closest-points-to-origin](https://github.com/basileus07/leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [1406-stone-game-iii](https://github.com/basileus07/leetcode/tree/master/1406-stone-game-iii) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/basileus07/leetcode/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/basileus07/leetcode/tree/master/3312-sorted-gcd-pair-queries) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/basileus07/leetcode/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -167,4 +170,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0486-predict-the-winner](https://github.com/basileus07/leetcode/tree/master/0486-predict-the-winner) |
 | [0877-stone-game](https://github.com/basileus07/leetcode/tree/master/0877-stone-game) |
+| [1406-stone-game-iii](https://github.com/basileus07/leetcode/tree/master/1406-stone-game-iii) |
+## Minimax
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/basileus07/leetcode/tree/master/1406-stone-game-iii) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1406-stone-game-iii](https://github.com/basileus07/leetcode/tree/master/1406-stone-game-iii) |
 <!---LeetCode Topics End-->
